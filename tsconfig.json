@@ -1,0 +1,24 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"noImplicitAny": false,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": false
+	},
+	"include": [
+		"TypeScripts/**/*/*.ts",
+		"TypeScripts/**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"obj/Debug",
+		"typings",
+		".history"
+	],
+	"atom": {
+		"rewriteTsconfig": false
+	}
+}
